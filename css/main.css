@@ -338,22 +338,6 @@ About Page
   justify-content: center;
 }
 
-.map figure {
-  width: 100%;
-  height: 0;
-  padding-bottom: 125%;
-  overflow: hidden;
-  position: relative;
-}
-
-.map iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -528,6 +512,11 @@ FAQ Page
   }
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -637,6 +626,10 @@ FAQ Page
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
   }
 
   /* =================================================================================
@@ -779,9 +772,9 @@ FAQ Page
   ==================================================================================== */
 
 
+
+
 }
-
-
 
 /* ==========================================================================
    Print styles.
