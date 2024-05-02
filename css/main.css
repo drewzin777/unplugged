@@ -200,6 +200,10 @@ header nav ul {
   justify-content: space-around;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -228,9 +232,17 @@ footer .social-icons {
 
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+ooter .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -628,6 +640,11 @@ FAQ Page
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
