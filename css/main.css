@@ -241,7 +241,7 @@ footer .social-icons p {
   align-items: center;
 }
 
-ooter .social-icons p i {
+footer .social-icons p i {
   font-size: 1.3125em;
 }
 
@@ -382,13 +382,13 @@ About Page
   left: 0;
 }
 
-.contact-section {
+.content-section {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
 }
 
-.content-conteent p {
+.contact-content p {
   margin: 0;
 }
 
