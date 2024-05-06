@@ -108,6 +108,7 @@ body {
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -126,6 +127,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -317,7 +319,7 @@ input[type=button] {
 }
 
 
-.features aticle {
+.features article {
   width: 63%;
   margin: 30px 0;
 }
@@ -325,7 +327,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -589,13 +590,18 @@ FAQ Page
   .features article {
     display: flex;
     align-items: center;
-    flex-flow: column-wrap;
+    flex-flow: column;
     flex-basis: 50%;
   }
 
   .features .features-item-description {
     width: 62%;
   }
+
+  .features i {
+    margin-bottom: 30px;
+  }
+
 
   /* Reviews */
   .reviews article {
@@ -626,7 +632,6 @@ FAQ Page
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
