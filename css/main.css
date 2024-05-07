@@ -587,10 +587,14 @@ FAQ Page
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
-    flex-flow: column;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
